@@ -60,7 +60,7 @@ public class SkockoInterface {
         }
         System.out.println("Broj tacnih pozicija: " + 
                 game.getNumOfCorrectlyPlacedSymbols(combination));
-        System.out.println("Broj tacnih simbola: " + 
+        System.out.println("Broj netacno poziciranih: " + 
                 game.getNumOfWronglyPlacedSymbols(combination));
         return false;
     }
